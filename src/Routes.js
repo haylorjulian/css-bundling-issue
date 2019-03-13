@@ -1,7 +1,20 @@
 import React from "react";
+import Loadable from "react-loadable";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
+
+const LoadableHome = Loadable({
+  loader: () => import("./Home"),
+  loading() {
+    return <div>Loading...</div>;
+  }
+});
+
+const LoadableAbout = Loadable({
+  loader: () => import("./About"),
+  loading() {
+    return <div>Loading...</div>;
+  }
+});
 
 const Routes = () => {
   return (
@@ -18,8 +31,8 @@ const Routes = () => {
           </ul>
         </nav>
 
-        <Route path="/" exact component={Home} />
-        <Route path="/about/" component={About} />
+        <Route path="/" exact component={LoadableHome} />
+        <Route path="/about/" component={LoadableAbout} />
       </div>
     </Router>
   );
