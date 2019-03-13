@@ -3,14 +3,14 @@ import Loadable from "react-loadable";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 const LoadableHome = Loadable({
-  loader: () => import("./Home"),
+  loader: () => import(/* webpackChunkName: "home" */ "./Home"),
   loading() {
     return <div>Loading...</div>;
   }
 });
 
 const LoadableAbout = Loadable({
-  loader: () => import("./About"),
+  loader: () => import(/* webpackChunkName: "about" */ "./About"),
   loading() {
     return <div>Loading...</div>;
   }
