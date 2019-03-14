@@ -4,8 +4,8 @@ self.__precacheManifest = [
     "url": "/css-bundling-issue/static/js/runtime~main.c2c6a3d0.js"
   },
   {
-    "revision": "310d121d3d0b37615321",
-    "url": "/css-bundling-issue/static/js/main.9440a653.chunk.js"
+    "revision": "46acc296ffa6077a110d",
+    "url": "/css-bundling-issue/static/js/main.39340eeb.chunk.js"
   },
   {
     "revision": "b354ab299cefffce9aa9",
@@ -16,11 +16,11 @@ self.__precacheManifest = [
     "url": "/css-bundling-issue/static/js/about.9aa38fb0.chunk.js"
   },
   {
-    "revision": "86ece4465f3ed348fe0a",
-    "url": "/css-bundling-issue/static/js/4.93eeaa20.chunk.js"
+    "revision": "a423530592f172ddcfad",
+    "url": "/css-bundling-issue/static/js/4.1faf402f.chunk.js"
   },
   {
-    "revision": "310d121d3d0b37615321",
+    "revision": "46acc296ffa6077a110d",
     "url": "/css-bundling-issue/static/css/main.fcf4768f.chunk.css"
   },
   {
@@ -32,7 +32,7 @@ self.__precacheManifest = [
     "url": "/css-bundling-issue/static/css/about.814921c1.chunk.css"
   },
   {
-    "revision": "9ee7cf12fa88a228ba761d467c3438af",
+    "revision": "709027c1583cb3a504eb992e4e07a12f",
     "url": "/css-bundling-issue/index.html"
   }
 ];
